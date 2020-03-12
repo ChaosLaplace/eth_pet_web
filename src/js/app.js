@@ -70,6 +70,7 @@ App = {
     $(document).on('click', '.btn-adopt', App.handleAdopt);
     $(document).on('click', '#btn-pay', App.handlePay);
     $(document).on('click', '#btn-withdraw', App.handleWithDraw);
+    $(document).on('click', '#btn-address', App.select_address);
   },
 
   markAdopted: function(adopters, account) {
@@ -143,9 +144,9 @@ App = {
 
         // Execute adopt as a transaction by sending account
         return adoptionInstance.pay({
-          // from: web3.eth.accounts[0],
-          // gas: 3000000,
-          // value: 10**18*5,
+          from: web3.eth.accounts[0],
+          gas: 3000000,
+          value: 10**18*5,
         });
       }).then(function(result)
       {
@@ -185,13 +186,46 @@ App = {
         console.log(err.message);
       });
     });
+  },
+
+  select_address: function(event)
+  {
+    event.preventDefault();
+
+    var adoptionInstance;
+
+    web3.eth.getAccounts(function(error, accounts)
+    {
+      if(error)
+      {
+        console.log(error);
+      }
+
+      var account = accounts[0];
+
+      App.contracts.Adoption.deployed().then(function(instance)
+      {
+        adoptionInstance = instance;
+
+        // Execute adopt as a transaction by sending account
+        return adoptionInstance.pay({
+          from: web3.eth.accounts[0],
+          gas: 3000000,
+          value: 10**18*5,
+        });
+      }).then(function(result)
+      {
+        console.log(result);
+      }).catch(function(err)
+      {
+        console.log(err.message);
+      });
+    });
   }
 };
 
-$(function()
-{
-  $(window).load(function()
-  {
+$(function(){
+  $(window).load(function(){
     App.init();
   });
 });
