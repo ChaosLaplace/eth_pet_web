@@ -1,130 +1,130 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Lisco, Alabama"
+    "name": "Fire1",
+    "hp": 1,
+    "defense": 1,
+    "attack": 1,
+    "src": "images/fire.jpg"
   },
   {
     "id": 1,
-    "name": "Gina",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Tooleville, West Virginia"
+    "name": "Fire2",
+    "hp": 2,
+    "defense": 2,
+    "attack": 2,
+    "src": "images/fire.jpg"
   },
   {
     "id": 2,
-    "name": "Collins",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Freeburn, Idaho"
+    "name": "Water1",
+    "hp": 3,
+    "defense": 3,
+    "attack": 3,
+    "src": "images/water.jpg"
   },
   {
     "id": 3,
-    "name": "Melissa",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Camas, Pennsylvania"
+    "name": "Grass1",
+    "hp": 4,
+    "defense": 4,
+    "attack": 4,
+    "src": "images/grass.jpg"
   },
   {
     "id": 4,
-    "name": "Jeanine",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Gerber, South Dakota"
+    "name": "Water2",
+    "hp": 5,
+    "defense": 5,
+    "attack": 5,
+    "src": "images/water.jpg"
   },
   {
     "id": 5,
-    "name": "Elvia",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Innsbrook, Illinois"
+    "name": "Water3",
+    "hp": 6,
+    "defense": 6,
+    "attack": 6,
+    "src": "images/water.jpg"
   },
   {
     "id": 6,
-    "name": "Latisha",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Soudan, Louisiana"
+    "name": "Thunder1",
+    "hp": 7,
+    "defense": 7,
+    "attack": 7,
+    "src": "images/thunder.jpg"
   },
   {
     "id": 7,
-    "name": "Coleman",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Jacksonwald, Palau"
+    "name": "Thunder2",
+    "hp": 8,
+    "defense": 8,
+    "attack": 8,
+    "src": "images/thunder.jpg"
   },
   {
     "id": 8,
-    "name": "Nichole",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Honolulu, Hawaii"
+    "name": "Water4",
+    "hp": 9,
+    "defense": 9,
+    "attack": 9,
+    "src": "images/water.jpg"
   },
   {
     "id": 9,
-    "name": "Fran",
-    "picture": "images/boxer.jpeg",
-    "age": 3,
-    "breed": "Boxer",
-    "location": "Matheny, Utah"
+    "name": "Grass2",
+    "hp": 10,
+    "defense": 10,
+    "attack": 10,
+    "src": "images/grass.jpg"
   },
   {
     "id": 10,
-    "name": "Leonor",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Tyhee, Indiana"
+    "name": "Grass3",
+    "hp": 11,
+    "defense": 11,
+    "attack": 11,
+    "src": "images/grass.jpg"
   },
   {
     "id": 11,
-    "name": "Dean",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Windsor, Montana"
+    "name": "Fire3",
+    "hp": 12,
+    "defense": 12,
+    "attack": 12,
+    "src": "images/fire.jpg"
   },
   {
     "id": 12,
-    "name": "Stevenson",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Kingstowne, Nevada"
+    "name": "Water5",
+    "hp": 13,
+    "defense": 13,
+    "attack": 13,
+    "src": "images/water.jpg"
   },
   {
     "id": 13,
-    "name": "Kristina",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 4,
-    "breed": "Golden Retriever",
-    "location": "Sultana, Massachusetts"
+    "name": "Thunder3",
+    "hp": 14,
+    "defense": 14,
+    "attack": 14,
+    "src": "images/thunder.jpg"
   },
   {
     "id": 14,
-    "name": "Ethel",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Broadlands, Oregon"
+    "name": "Thunder4",
+    "hp": 15,
+    "defense": 15,
+    "attack": 15,
+    "src": "images/thunder.jpg"
   },
   {
     "id": 15,
-    "name": "Terry",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Dawn, Wisconsin"
+    "name": "Thunder5",
+    "hp": 16,
+    "defense": 16,
+    "attack": 16,
+    "src": "images/thunder.jpg"
   }
 ]
