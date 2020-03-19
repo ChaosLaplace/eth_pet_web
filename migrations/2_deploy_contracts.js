@@ -1,5 +1,5 @@
-var PokemonFirst = artifacts.require("PokemonFirst");
+var Adoption = artifacts.require("Adoption");
 
 module.exports = function(deployer) {
-  deployer.deploy(PokemonFirst);
+  deployer.deploy(Adoption);
 };
