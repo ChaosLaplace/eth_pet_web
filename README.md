@@ -1,8 +1,8 @@
 # eth_pet_web
 
-需安裝
-1.MetaMask
-2.Ganache
+# 安裝  
+1.MetaMask  
+2.Ganache  
 3.Node.js
 
 # 編譯合約
