@@ -11,3 +11,6 @@ truffle compile
 truffle migrate
 # 啟動
 npm run dev
+
+# 執行結果
+網頁的console.log
