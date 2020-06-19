@@ -15,7 +15,7 @@ docker pull chaoslaplace/eth:pokemon_shop
 
 docker run -d -p 8085:3000 --name eth_pokemon chaoslaplace/eth:pokemon_shop
 
-把 container /usr/src/app/ 裡面的檔案都複製出來
+docker cp . e3aee8cd3c3b:/usr/src/app/
 
 truffle compile
 
